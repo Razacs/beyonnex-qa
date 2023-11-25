@@ -1,6 +1,8 @@
 # beyonnex-qa
 This repository is providing solution of beyonnex challenge. This repository Automation Test cases with docker file using Cypress.
 
+**Test Strategy Document Solution.pdf** contains all the Automation approach, scope and Deliverablity.
+
 **Automation Test Scripts:**
 
 That contains automated test scripts for testing of GUI automation for a web application using Docker Node.js and npm.

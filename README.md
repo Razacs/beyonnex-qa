@@ -71,6 +71,6 @@ docker run -it -v ${PWD}:/app -v /dev/shm:/dev/shm weathershopper
 
 ![image](https://github.com/Razacs/beyonnex-qa/assets/32739941/c1f63fb8-8711-4c06-a498-e89363d2a849)
 
-**Let me know if you need any further information from my side.
+**Let me know if you need any further information from my side.**
 
-Thanks!**
+**Thanks!**

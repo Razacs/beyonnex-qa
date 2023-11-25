@@ -23,6 +23,8 @@ The test automation framework follows a node structure to enhance code reusabili
 
 **package.json and package-lock.json**: Node.js package configuration files. They include dependencies and scripts for running Cypress tests.
 
+**report** : This folder contains mochawesome report 
+
 **Setup and Execution Steps**
 
 1) git clone https://github.com/Razacs/beyonnex-qa.git
@@ -34,6 +36,8 @@ The test automation framework follows a node structure to enhance code reusabili
 (npm install --save-dev mocha mochawesome mochawesome-merge mochawesome-report-generator) //Install Dependecies
 
 4) npm run cypress:run // Execute all test cases
+
+5) npm run test (to Execute agd get moachaswesome report) 
    
 **To Execute with Docker**
 

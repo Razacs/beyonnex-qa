@@ -8,12 +8,14 @@ This repository is providing solution of beyonnex challenge. This repository Aut
 That contains automated test scripts for testing of GUI automation for a web application using Docker Node.js and npm.
 
 **Tools and Technologies**
+-------------------------
 
 Language: JavaScript
 Automation Framework: NPM Node JS
 Reporting: Mochawesome
 
 **Framework Approach**
+---------------------
 
 The test automation framework follows a node structure to enhance code reusability, maintainability, and readability. It's designed to organize the test scripts effectively.
 
@@ -28,6 +30,7 @@ The test automation framework follows a node structure to enhance code reusabili
 **report** : This folder contains mochawesome report 
 
 **Setup and Execution Steps**
+------------------------------
 
 1) git clone https://github.com/Razacs/beyonnex-qa.git
 
@@ -42,6 +45,7 @@ The test automation framework follows a node structure to enhance code reusabili
 5) npm run test (to Execute agd get moachaswesome report) 
    
 **To Execute with Docker**
+--------------------------
 
 1) **Build the Docker Image**
 
@@ -51,12 +55,12 @@ docker build -t weathershopper .
 
 docker run -it --rm -v ${PWD}:/app -v /dev/shm:/dev/shm weathershopper
 
-3) docker logs [container_id] //Replace container id with actual ID
+**3) docker logs [container_id] //Replace container id with actual ID**
 
 ----> To find container ID execute this command (**docker ps -a**)
 
-4) In case of keep containers from being automatically removed, I remove the --rm option from docker run command, then after execution container will not removed.
 
+**4) In case of keep containers from being automatically removed, I remove the --rm option from docker run command, then after execution container will not removed.**
 docker run -it -v ${PWD}:/app -v /dev/shm:/dev/shm weathershopper
 
 **Output:**

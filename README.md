@@ -1,5 +1,5 @@
-# beyonnex-qa
-This repository is providing solution of beyonnex challenge. This repository Automation Test cases with docker file using Cypress.
+# Weather Shopper Project
+This repository is providing solution of Weather Shopper Project automation using Cypress with Node JS framework. Also execuet with Docker container and Mochawsome report generated.
 
 **Test Strategy Document Solution.pdf** contains all the Automation approach, scope and Deliverablity.
 
